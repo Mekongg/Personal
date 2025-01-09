@@ -64,8 +64,8 @@
                     <ul class="nav navbar-nav navbar-right">
 
                         <li class="page-scroll"><a href="#hero">Home</a></li>
-                        <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Service</a></li>
+                        <li class="page-scroll"><a href="#about-section">About</a></li>
+                        <li class="page-scroll"><a href="#service-section">Service</a></li>
                         <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
                         
@@ -80,18 +80,15 @@
     <div id="hero" class="hero">
         <div class="container">
             <div class="row">
-                <div id="hero" class="hero">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h1>MUHAMMAD HUSEIN MAKKI</h1>
-                                <p id="job-title" class="job-title">Full Stack Developer</p>
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <img src="assets/img/ucen.png" alt="alex-vidal">
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <h1 class="ucen">M. Husein Makki</h1>
+                    <div class="page-scroll">
+                        <p class="job-title" id="typewriter"></p>
                     </div>
+                </div>
+            
+                <div class="col-md-6 text-right">
+                    <img id="profile-image" src="assets/img/ucen.png" alt="">
                 </div>
             </div>
         </div>
@@ -99,13 +96,13 @@
 
     <main id="main" class="site-main">
 
-        <section id="about" class="site-section section-about text-center">
+        <section id="about-section" class="site-section section-about text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Lulusan S1 Teknik Informatika dari Universitas Islam Syekh Yusuf dengan gelar Sarjana Komputer yang memiliki minat dan kompetensi di bidang audit
+                        <p>Fresh graduate S1 Teknik Informatika dari Universitas Islam Syekh Yusuf yang memiliki minat dan kompetensi di bidang audit
                             teknologi informasi, keamanan sistem, dan administrasi Information Technology. Memiliki keahlian seputar pemrograman,
                             pengembangan perangkat lunak, dan analisis data. Terbiasa mengoperasikan Microsoft Office (Word, Excel, Power Point)
                             dan mampu mengoperasikan perangkat lunak ERP, SAP, Accurate. Memiliki kemampuan analisis yang mumpuni, cekatan,
@@ -172,7 +169,7 @@
             </div>
         </section><!-- /.secton-skills -->
 
-        <section id="service" class="site-section section-services overlay text-center">
+        <section id="service-section" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -198,7 +195,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item" data-index="0">
                             <img src="assets/img/p1.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Sistem Informasi Imunisasi dan Gizi</h4>
@@ -207,7 +204,7 @@
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item" data-index="1">
                             <img src="assets/img/p2.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Raport Digital Sekolah</h4>
@@ -216,7 +213,7 @@
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item" data-index="2">
                             <img src="assets/img/p3.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>cafe</h4>
@@ -225,7 +222,7 @@
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item" data-index="3">
                             <img src="assets/img/p4.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Aplikasi Desa</h4>
@@ -234,7 +231,7 @@
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item" data-index="4">
                             <img src="assets/img/p5.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Project Desain</h4>
@@ -243,7 +240,7 @@
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item" data-index="5">
                             <img src="assets/img/p6.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Project Desain</h4>
@@ -285,7 +282,7 @@
                     <a href="https://www.linkedin.com/in/huseinmakki/" class="btn btn-border" target="_blank"> 
                         <span class="icon-linkedin"></span>
                     </a>
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=makkicoki62@gmail.com" class="btn btn-border" target="_blank"> 
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrdBrjLHRRcGmZDbbfrxqhRmqCgFmTjmffShlWPWbSKNZsNxTqjlXzVcmCcFDdggnHXWV" class="btn btn-border" target="_blank"> 
                         <span class="icon-gplus"></span>
                     </a>
                 </div>
@@ -389,7 +386,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
@@ -398,19 +394,103 @@
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Efek mengetik pada job title
-            var options2 = {
-                strings: ["Full Stack Developer", "Creative Coder", "Desain Grafis"], // Teks yang akan diketik
-                typeSpeed: 60,
-                backSpeed: 40,
-                loop: true
-            };
-            new Typed("#job-title", options2);
+        document.addEventListener('DOMContentLoaded', function () {
+            const text = "Full Stack Developer | Desain Grafis";
+            const typewriter = document.getElementById('typewriter');
+            let index = 0;
+    
+            function type() {
+                if (index < text.length) {
+                    typewriter.textContent += text.charAt(index);
+                    index++;
+                    setTimeout(type, 100); // Kecepatan mengetik (100ms per karakter)
+                }
+            }
+    
+            type();
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const profileImage = document.getElementById('profile-image');
+            setTimeout(() => {
+                profileImage.classList.add('visible'); // Tambahkan kelas untuk animasi
+            }, 500); // Tunggu 500ms sebelum animasi dimulai
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const aboutSection = document.getElementById('about-section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        aboutSection.classList.add('visible'); // Tambahkan kelas saat terlihat
+                    } else {
+                        aboutSection.classList.remove('visible'); // Hapus kelas saat tidak terlihat
+                    }
+                });
+            }, { threshold: 0.1 }); // 10% dari elemen terlihat akan memicu
     
-
-  
+            observer.observe(aboutSection); // Pantau elemen about
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const serviceSection = document.getElementById('service-section');
+            let lastScrollY = window.scrollY; // Melacak posisi scroll terakhir
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const currentScrollY = window.scrollY;
+    
+                    if (entry.isIntersecting) {
+                        if (currentScrollY > lastScrollY) {
+                            // Scroll ke bawah: elemen muncul dari kiri
+                            serviceSection.classList.add('enter-from-left');
+                            serviceSection.classList.remove('exit-to-right', 'enter-from-right', 'exit-to-left');
+                        } else {
+                            // Scroll ke atas: elemen muncul dari kanan
+                            serviceSection.classList.add('enter-from-right');
+                            serviceSection.classList.remove('exit-to-left', 'enter-from-left', 'exit-to-right');
+                        }
+                    } else {
+                        if (currentScrollY > lastScrollY) {
+                            // Scroll ke bawah: elemen menghilang ke kanan
+                            serviceSection.classList.add('exit-to-right');
+                            serviceSection.classList.remove('enter-from-left', 'enter-from-right', 'exit-to-left');
+                        } else {
+                            // Scroll ke atas: elemen menghilang ke kiri
+                            serviceSection.classList.add('exit-to-left');
+                            serviceSection.classList.remove('enter-from-right', 'enter-from-left', 'exit-to-right');
+                        }
+                    }
+    
+                    lastScrollY = currentScrollY; // Perbarui posisi scroll terakhir
+                });
+            }, { threshold: 0.1 }); // Memicu saat 10% elemen terlihat
+    
+            observer.observe(serviceSection); // Pantau elemen service
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const portfolioItems = document.querySelectorAll('.portfolio-item'); // Semua elemen portofolio
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Tambahkan kelas visible jika elemen terlihat
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 }); // Memicu saat 10% elemen terlihat
+    
+            // Amati setiap elemen portofolio
+            portfolioItems.forEach(item => observer.observe(item));
+        });
+    </script>
+        
+    
 </body>
 </html>
